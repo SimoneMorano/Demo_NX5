@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataTraceSetModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>Axis0.Cmd.Pos</Name>
+      <Id>e32b0689-0935-4848-8c4d-c20947f580b2</Id>
+      <SymbolId>entity://variables.global.450e5501-c2b9-466d-88a5-a6334aa639a5/Axis0.Cmd.Pos%3ALREAL</SymbolId>
+      <NaturalDataType>LREAL</NaturalDataType>
+      <Comment>Axis Variable Axis Command Values Command Current Position</Comment>
+      <ColourA>255</ColourA>
+      <ColourR>255</ColourR>
+      <ColourG>255</ColourG>
+      <ColourB>0</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Double</DataType>
+      <Id>e32b0689-0935-4848-8c4d-c20947f580b2</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset></ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>Axis0.Cmd.Vel</Name>
+      <Id>6db47adb-2952-4917-8643-4fa0db8bb4ad</Id>
+      <SymbolId>entity://variables.global.450e5501-c2b9-466d-88a5-a6334aa639a5/Axis0.Cmd.Vel%3ALREAL</SymbolId>
+      <NaturalDataType>LREAL</NaturalDataType>
+      <Comment>Axis Variable Axis Command Values Command Current Velocity</Comment>
+      <ColourA>255</ColourA>
+      <ColourR>0</ColourR>
+      <ColourG>255</ColourG>
+      <ColourB>255</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Double</DataType>
+      <Id>6db47adb-2952-4917-8643-4fa0db8bb4ad</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset></ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>Axis0.Act.Pos</Name>
+      <Id>4b79f6a6-3765-40d6-b798-59a9a6246b3b</Id>
+      <SymbolId>entity://variables.global.450e5501-c2b9-466d-88a5-a6334aa639a5/Axis0.Act.Pos%3ALREAL</SymbolId>
+      <NaturalDataType>LREAL</NaturalDataType>
+      <Comment>Axis Variable Axis Current Value Actual Current Position</Comment>
+      <ColourA>255</ColourA>
+      <ColourR>0</ColourR>
+      <ColourG>255</ColourG>
+      <ColourB>0</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Double</DataType>
+      <Id>4b79f6a6-3765-40d6-b798-59a9a6246b3b</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset></ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>Axis0.Cmd.Trq</Name>
+      <Id>27d1f9e8-d69f-44b8-ba77-a3d9cfff5853</Id>
+      <SymbolId>entity://variables.global.450e5501-c2b9-466d-88a5-a6334aa639a5/Axis0.Cmd.Trq%3ALREAL</SymbolId>
+      <NaturalDataType>LREAL</NaturalDataType>
+      <Comment>Axis Variable Axis Command Values Command Current Torque</Comment>
+      <ColourA>255</ColourA>
+      <ColourR>255</ColourR>
+      <ColourG>165</ColourG>
+      <ColourB>0</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Double</DataType>
+      <Id>27d1f9e8-d69f-44b8-ba77-a3d9cfff5853</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset></ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+  </DataTraceSetModel>
+</data>

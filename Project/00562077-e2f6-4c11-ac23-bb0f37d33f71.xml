@@ -1,0 +1,7 @@
+﻿{"CLs":[{"__type":"LD","Id":"c3db8377-3fd7-4b20-a93b-8e990000000e","Up":true,"Var":"PyCmdEnable"},{"__type":"ST","Ix":1,"S":true,"Var":"Asse0powerBit","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c3db8377-3fd7-4b20-a93b-8e9900000013","Up":true,"Var":"PyCmdDisable"},{"__type":"ST","Ix":1,"RS":true,"Var":"Asse0powerBit","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c3db8377-3fd7-4b20-a93b-8e9900000018","Up":true,"Var":"PyCmdReset"},{"__type":"ST","Ix":1,"Var":"Asse0resetBit","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c3db8377-3fd7-4b20-a93b-8e990000001d","Up":true,"Var":"PyCmdMovVel"},{"__type":"ST","Ix":1,"Var":"Asse0MovvelBit","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c3db8377-3fd7-4b20-a93b-8e9900000022","Up":true,"Var":"PyCmdStartCycle"},{"__type":"ST","Ix":1,"Var":"Asse0MoveBit","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c3db8377-3fd7-4b20-a93b-8e9900000027","Up":true,"Var":"PyCmdStop"},{"__type":"ST","Ix":1,"Var":"Asse0stopBit","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c3db8377-3fd7-4b20-a93b-8e990000002c","Up":true,"Var":"PyCmdStartMonitor"},{"__type":"ST","Ix":1,"Var":"ExeTrace","X":1}],"LRI":2,"RRI":3,"VLs":[]}

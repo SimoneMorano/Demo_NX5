@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest manifestSchemaVersion="1" modelSchemaVersion="1">
+  <Application applicationName="sysmac" applicationVersion="Infinity" />
+  <Solution solutionName="DemoNX5" id="d517dcea-9850-4c3e-a9a7-f4c86008ce8d" trackingId="0e22a3dc-fcfe-4ac8-9c0d-793a4f80e2a8" solutionSchemaVersion="2">
+    <ApplicationFeatures>
+      <ApplicationFeature name="V102Project" />
+      <ApplicationFeature name="DBCon V2.04" />
+      <ApplicationFeature name="SetUnit NX502-1500 Ver. 1.65" />
+      <ApplicationFeature name="NexLibraryInternalUsed" />
+      <ApplicationFeature name="SetUnit V1_11IncompatibleNXUnit Ver. 1.0" />
+      <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
+      <ApplicationFeature name="Safety_SL5x00_V1_3" />
+      <ApplicationFeature name="Safety" />
+    </ApplicationFeatures>
+  </Solution>
+</Manifest>

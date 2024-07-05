@@ -1,0 +1,7 @@
+﻿{"CLs":[{"__type":"LD","Id":"c9f777ce-8b4f-442c-bdde-c4df00000002","Up":true,"Var":"PyCmdEnable"},{"__type":"ST","Ix":1,"RS":true,"Var":"PyCmdEnable","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c9f777ce-8b4f-442c-bdde-c4df00000007","Up":true,"Var":"PyCmdDisable"},{"__type":"ST","Ix":1,"RS":true,"Var":"PyCmdDisable","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c9f777ce-8b4f-442c-bdde-c4df0000000c","Up":true,"Var":"PyCmdReset"},{"__type":"ST","Ix":1,"RS":true,"Var":"PyCmdReset","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c9f777ce-8b4f-442c-bdde-c4df00000011","Up":true,"Var":"PyCmdMovVel"},{"__type":"ST","Ix":1,"RS":true,"Var":"PyCmdMovVel","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c9f777ce-8b4f-442c-bdde-c4df00000016","Up":true,"Var":"PyCmdStartCycle"},{"__type":"ST","Ix":1,"RS":true,"Var":"PyCmdStartCycle","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c9f777ce-8b4f-442c-bdde-c4df0000001b","Up":true,"Var":"PyCmdStop"},{"__type":"ST","Ix":1,"RS":true,"Var":"PyCmdStop","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Id":"c9f777ce-8b4f-442c-bdde-c4df00000020","Up":true,"Var":"PyCmdStartMonitor"},{"__type":"ST","Ix":1,"RS":true,"Var":"PyCmdStartMonitor","X":1}],"LRI":2,"RRI":3,"VLs":[]}

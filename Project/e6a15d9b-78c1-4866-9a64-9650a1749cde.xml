@@ -1,0 +1,49 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=WORD	N=ERR_HOMING	IV=16#5466	Const=1	G=VAR	Com=Error bit 13 during homing
+++D=UINT	N=state	G=VAR
+++D=_sSDO_ACCESS	N=SDOObjectOneRotation	IV=(Index := 16#4510, Subindex := 16#84, IsCompleteAccess := False)	G=VAR
+++D=_sSDO_ACCESS	N=SDOObjectShaftRev	IV=(Index := 16#3001, Subindex := 16#6, IsCompleteAccess := False)	G=VAR
+++D=_sSDO_ACCESS	N=SDOObjectMotRev	IV=(Index := 16#3001, Subindex := 16#5, IsCompleteAccess := False)	G=VAR
+++D=_sSDO_ACCESS	N=SDOObjectOperSelection	IV=(Index := 16#4510, Subindex := 16#1, IsCompleteAccess := False)	G=VAR
+++D=EC_CoESDORead	N=FB_ECSDOReadOneRotation	G=VAR
+++D=EC_CoESDORead	N=FB_ECSDOReadShaftRev	G=VAR
+++D=EC_CoESDORead	N=FB_ECSDOReadHMmode	G=VAR
+++D=EC_CoESDORead	N=FB_ECSDOReadMotRev	G=VAR
+++D=EC_CoESDORead	N=FB_ECSDOReadOperSelect	G=VAR
+++D=UDINT	N=ReadDataOneRotation	G=VAR
+++D=UINT	N=ReadSizeOneRotation	G=VAR
+++D=UINT	N=ReadSizeShaftRev	G=VAR
+++D=UINT	N=ReadSizeOperSelect	G=VAR
+++D=UINT	N=ReadSizeMotRev	G=VAR
+++D=UDINT	N=ReadDataShaftRev	G=VAR
+++D=DINT	N=ReadDataOperSelect	G=VAR
+++D=UDINT	N=ReadDataMotRev	G=VAR
+++D=DINT	N=NewOffset	G=VAR
+++D=LREAL	N=corrOneTurn	G=VAR
+++D=_sSDO_ACCESS	N=SDOObjectReboot	IV=(Index := 16#2400, Subindex := 16#01, IsCompleteAccess := False)	G=VAR
+++D=STRING[8]	N=ResetDrive	G=VAR
+++D=TON	N=FB_TONwait1Sreset	G=VAR
+++D=ResetECError	N=FB_ResetECError	G=VAR
+++D=OmronLib\EC_1S\InitEncoder_1S	N=FB_ResetMultiturn	G=VAR
+++D=UINT	N=ReadSizeHMmode	G=VAR
+++D=SINT	N=ReadDataHM	G=VAR
+++D=_sSDO_ACCESS	N=SDOObjecHMmode	IV=(Index := 16#3A00, Subindex := 16#02, IsCompleteAccess := False)	G=VAR
+++D=EC_CoESDOWrite	N=FB_ECSDOWriteReset	G=VAR
+++D=TON	N=FB_SwitchOffWaitTime	G=VAR
+++D=EC_CoESDORead	N=FB_ECSDOReadRotationDirection	G=VAR
+++D=UINT	N=ReadSizeRotationDirection	G=VAR
+++D=UDINT	N=ReadDataRotationDirection	G=VAR
+++D=_sSDO_ACCESS	N=SDOObjectRotationDirection	IV=(Index := 16#3000, Subindex := 16#1, IsCompleteAccess := False)	G=VAR
+++D=TON	N=FB_TONwait1Sready	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OMR_CH_PP_Pos\sPP_Axis	N=Axis	Ord=0	G=VAR_IN_OUT	Com=EtherCAT node address
+++D=BOOL	N=Execute	E=UpDirection	Ord=1	G=VAR_INPUT
+++D=DINT	N=HomeOffset	Ord=2	G=VAR_INPUT	Com=Offset applied after successful homing
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=5	G=VAR_OUTPUT	Com=Error flag
+++D=WORD	N=ErrorID	Ord=6	G=VAR_OUTPUT	Com=ErrorID
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[1..256] OF BOOL	N=_EC_MBXSlavTbl	Const=1	G=VAR_EXTERNAL

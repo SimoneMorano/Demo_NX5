@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>OmronLib_EC_1S_V1_0</Name>
+      <NameSpace></NameSpace>
+      <Version>1.0.1</Version>
+      <Revision>1</Revision>
+      <LibraryId>6cecad37-3dde-4efa-b068-33c9589d0662</LibraryId>
+      <Author>OMRON Corporation</Author>
+      <Company>(c) OMRON Corporation 2016, 2019. All Rights Reserved.</Company>
+      <DateCreated>2015-08-10T05:08:58.9769339+02:00</DateCreated>
+      <DateModified>2019-03-01T03:51:24.055376+01:00</DateModified>
+      <Comment>This is EC 1S library.
+これはEtherCAT 1Sライブラリです。</Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>OmronLib\EC_1S\Backup_1S</PublicName>
+        <PublicName>OmronLib\EC_1S\Restore_1S</PublicName>
+        <PublicName>OmronLib\EC_1S\InitEncoder_1S</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>OmronLib\EC_1S\SubParts\ReadDevice</InternalName>
+        <InternalName>OmronLib\EC_1S\SubParts\ReadObjectList</InternalName>
+        <InternalName>OmronLib\EC_1S\Backup1S\CompareDevice</InternalName>
+        <InternalName>OmronLib\EC_1S\Backup1S\WriteBackup</InternalName>
+        <InternalName>OmronLib\EC_1S\Restore1S\RestoreParam</InternalName>
+        <InternalName>OmronLib\EC_1S\InitEncoder1S\PollingInit1S</InternalName>
+        <InternalName>OmronLib\EC_1S\SubParts\ObjectList</InternalName>
+        <InternalName>OmronLib\EC_1S\SubParts\SDOParameterTitle</InternalName>
+        <InternalName>OmronLib\EC_1S\SubParts\SDOParameter</InternalName>
+        <InternalName>OmronLib\EC_1S\SubParts\DeviceItem</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NJ301-1100</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>1</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.01</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.1" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>ea6d855f-c7cb-4ffc-8349-f81723e48347</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\OMRON\Data\Lib\EC_1S\OmronLib_EC_1S_V1_0.slr</LibraryFilePath>
+      <LibraryFileRelativePath></LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath>..\..\..\..\Lib\EC_1S\OmronLib_EC_1S_V1_0.slr</LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

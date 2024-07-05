@@ -1,0 +1,43 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=default	G=VAR
+++D=MC_Power	N=Power_1S_0_FB	G=VAR
+++D=BOOL	N=Power_1S_0_bit	G=VAR
+++D=BOOL	N=Reset_1S_0_bit	G=VAR
+++D=BOOL	N=MovVel_1S_0_bit	G=VAR
+++D=MC_Reset	N=Reset_1S_0_FB	G=VAR
+++D=MC_MoveVelocity	N=MovVel_1S_0_FB	G=VAR
+++D=BOOL	N=Stop_1S_0_bit	G=VAR
+++D=MC_Stop	N=Stop_1S_0_FB	G=VAR
+++D=LREAL	N=Vel_1S_0	G=VAR
+++D=LREAL	N=Acc_1S_0	G=VAR
+++D=LREAL	N=Dec_1S_0	G=VAR
+++D=LREAL	N=Jerk_1S_0	G=VAR
+++D=_eMC_DIRECTION	N=Dir_1S_0	G=VAR
+++D=MC_Home	N=Home_1S_0_FB	G=VAR
+++D=MC_Move	N=Move_1S_0_FB	G=VAR
+++D=MC_Move	N=Move_1S_1_FB	G=VAR
+++D=_eMC_DIRECTION	N=Dir_1S_1	G=VAR
+++D=LREAL	N=Pos_1S_1	G=VAR
+++D=BOOL	N=ExeTrace	G=VAR
+++D=ATC_E\Tools1S\DataTraceSetup1S	N=Asse0tracesetup	G=VAR
+++D=ATC_E\Tools1S\DataTrace1S_V1	N=Asse0traceFB	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=_sAXIS_REF	N=Axis0	Const=1	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0powerBit	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0resetBit	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0stopBit	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0MovvelBit	G=VAR_EXTERNAL
+++D=LREAL	N=Pos_1S_0	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0moveBit	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdEnable	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdDisable	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdReset	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdMovVel	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdStartCycle	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdStop	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdStartMonitor	G=VAR_EXTERNAL
+++D=ARRAY[0..5,0..4095] OF DINT	N=Asse0traceoutput	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF Axis_py	N=AxisMonitor	G=VAR_EXTERNAL
+++D=OMR_CH_PP_Pos\sPP_Axis	N=Axis1	G=VAR_EXTERNAL

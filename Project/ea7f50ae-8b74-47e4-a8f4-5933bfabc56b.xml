@@ -1,0 +1,20 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>CASE state OF&#xD;
+	0:&#xD;
+		Done:=FALSE;&#xD;
+		IF (Execute=TRUE)  THEN&#xD;
+			Error:= FALSE;&#xD;
+			ErrorID:=16#0;&#xD;
+			Busy:=TRUE;&#xD;
+			Active:=TRUE;&#xD;
+			state:= 3;&#xD;
+		END_IF;&#xD;
+		&#xD;
+	3:&#xD;
+		Axis.HomeOffset := -((LREAL_TO_DINT(Axis.Act.Pos)-Axis.HomeOffset) - LREAL_TO_DINT(Position));		//Calculate new HomeOffset&#xD;
+		Axis.Cmd.Pos := Position;&#xD;
+		Done:=TRUE;&#xD;
+		state := 0;&#xD;
+		Busy := FALSE;&#xD;
+		Active := FALSE;&#xD;
+&#xD;
+END_CASE;</Text></StructuredTextModel>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>OneS_Positioning</Name>
+      <NameSpace></NameSpace>
+      <Version>1.0.9</Version>
+      <Revision>1</Revision>
+      <LibraryId>f836a15a-41a3-4fb7-9edd-0f7cb9e4d819</LibraryId>
+      <Author></Author>
+      <Company>Omron CH</Company>
+      <DateCreated>2012-07-02T17:03:12.4682575+02:00</DateCreated>
+      <DateModified>2019-04-18T15:29:02.9732204+02:00</DateModified>
+      <Comment>1S controlling PP, PV and HM mode
+</Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>OMR_CH_PP_Pos\MC_Power1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_Home1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_MoveRel1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_MoveAbs1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_MoveJog1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_MoveVelocity1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_Stop1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_SetPosition1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_HomeTorque1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_Reset1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_Restart1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_MotorReplacement1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\Ax_InData</PublicName>
+        <PublicName>OMR_CH_PP_Pos\Ax_OutData</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_BrakeRelease</PublicName>
+        <PublicName>OMR_CH_PP_Pos\Get1sInfo</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sAX_bCmd</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sPP_Axis</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sStaDrv</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sCfg</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sAct</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sCmd</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sStatus</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sDetail</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sDir</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sAX_bCmd_Copy</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sAX_bSts</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sAX_wCmd</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sAX_wSts</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sAX_Mng</PublicName>
+        <PublicName>OMR_CH_PP_Pos\uWORD_BYTE_BOOL</PublicName>
+        <PublicName>OMR_CH_PP_Pos\eStatusHoming</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sInfo1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sDrive1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sLifeTimeInfo1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sEncoder1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sMotor1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sWarnings1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\eMC_Direction</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames />
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX1P2-1040DT1</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>16</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.16</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.16" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>642b675a-ab7d-4f41-a42f-5e87ce02b313</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\OMRON\Data\Lib\OneS_Positioning_V1.09.slr</LibraryFilePath>
+      <LibraryFileRelativePath></LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

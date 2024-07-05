@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module VenderID="1" ProductCode="10507520" Revision="16973824" IONodeID="7dbe791a-a7fb-4308-a31e-de46ea112906" DeviceName="N3" SerialNo="0" IsEnabled="1">
+  <Feature Values="SupportEipUnitConnectionSettings, SupportMixtureOfEipUnitPortAndBuiltInEipPort" />
+  <PdoM PMIndex="6656" PMN="TxSlaves" PMIOD="I">
+    <Pdo PID="f68f61e0-8950-401e-94c4-5b83bcdbc145" Index="24576" SIndex="1" Name="FSoEMaster_Instance0" DSC="" PBit="56" PD="I" PV="H" PBO="0" BTBL="56" LEMI="3" SPId="94ba2698-dc1e-4985-8ca0-9e793136119c" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="b3aaef81-bd2c-4fcd-97c6-1514b3a104a4" Index="24576" SIndex="2" Name="FSoEMaster_Instance1" DSC="" PBit="48" PD="I" PV="H" PBO="56" BTBL="48" LEMI="4" SPId="8e881dde-67cd-4956-a6e6-813d14366979" PDT="ARRAY [0..5] OF BYTE" CipType="None" />
+    <Pdo PID="564c8361-7dcb-4980-8170-d1938c80ff7e" Index="24576" SIndex="3" Name="FSoEMaster_Instance2" DSC="" PBit="56" PD="I" PV="H" PBO="104" BTBL="56" LEMI="5" SPId="f262b285-9d73-4c56-a5aa-e216921c0a46" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="360006ba-fe1f-45d0-9715-81036ce10234" Index="24576" SIndex="4" Name="FSoEMaster_Instance3" DSC="" PBit="56" PD="I" PV="H" PBO="160" BTBL="56" LEMI="6" SPId="45ac6b39-4255-488d-8172-4286f7c0daed" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="19c650f2-6e0e-485a-9589-7cb88d342ce7" Index="24576" SIndex="5" Name="Padding" DSC="" PBit="8" PD="I" PV="H" PBO="216" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
+  </PdoM>
+  <PdoM PMIndex="5632" PMN="RxSlaves" PMIOD="O">
+    <Pdo PID="d657c692-cee4-4cbc-9dd4-6ae4fca54e59" Index="28672" SIndex="1" Name="FSoEMaster_Instance0" DSC="" PBit="56" PD="O" PV="H" PBO="0" BTBL="56" LEMI="3" SPId="a7e10b82-2299-4ac1-bf2d-4da2d3937302" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="ca7e1c9c-d627-4a7b-8d42-fd1427bc822b" Index="28672" SIndex="2" Name="FSoEMaster_Instance1" DSC="" PBit="48" PD="O" PV="H" PBO="56" BTBL="48" LEMI="4" SPId="24846653-6ab5-486e-a9dd-73632e8708d0" PDT="ARRAY [0..5] OF BYTE" CipType="None" />
+    <Pdo PID="d8bd0a0d-82ec-4a7d-8446-b46edcd0dd27" Index="28672" SIndex="3" Name="FSoEMaster_Instance2" DSC="" PBit="56" PD="O" PV="H" PBO="104" BTBL="56" LEMI="5" SPId="c20a2576-fb88-4db5-8f9a-7ecbd668c56a" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="a6f46d4c-cba1-46bc-89bd-4cb378d16cbf" Index="28672" SIndex="4" Name="FSoEMaster_Instance3" DSC="" PBit="56" PD="O" PV="H" PBO="160" BTBL="56" LEMI="6" SPId="e2afc306-8c11-4cd1-b839-795ed772f915" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="a8d2bda7-1cb0-45c3-a020-06d3879e8314" Index="28672" SIndex="5" Name="Padding" DSC="" PBit="8" PD="O" PV="H" PBO="216" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
+  </PdoM>
+  <PdoM PMIndex="6657" PMN="TxVariables" PMIOD="I">
+    <Pdo PID="e2dba3d9-2494-4aec-8152-8574f9cee4bf" Index="24580" SIndex="1" Name="Safety CPU Status" DSC="Status of Safety CPU Unit for monitoring" PBit="16" PD="I" PV="V" PBO="224" BTBL="16" LEMI="2147483648" SPId="00000000-0000-0000-0000-000000000000" PDT="UINT" CipType="None">
+      <SubPort PID="de020480-714b-43af-90db-5a35f9fb735e" Name="Normal Operating" DSC="Safety program is running without any fault and all safety master connections are established" Offset="0" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="244ed2a0-8a00-4585-b3bf-b6ef0b0c13c7" Name="Program Operating" DSC="Safety program is running" Offset="1" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="1b6ce4ed-8795-4258-8674-34c0eb7e43a8" Name="Program No Fault" DSC="No system event more than minor fault occurs" Offset="2" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="85f2363e-8550-4ed3-a227-b72f4a8f32af" Name="Safety Master Connection Status" DSC="All safety master connections are established" Offset="3" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="4527894a-1b7a-4a0b-a04a-48961209150a" Name="FSoE Master Connection Status" DSC="All FSoE master connections are established." Offset="4" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="8342ea04-9c2d-447a-b6b0-0a08c6ff3b49" Name="CIP Safety Originator Connection Status" DSC="All CIP Safety Originator connections are established" Offset="5" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="bd10eb35-c1b3-407b-a66f-d7b15423814e" Name="CIP Safety Target Connection Status" DSC="No error exists on CIP Safety Target connections" Offset="6" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="7a2762f9-17aa-45a9-baff-2b28d092f10f" Name="Reserved" DSC="" Offset="7" PD="I" BTBL="9" PDT="BOOL" PV="H" />
+    </Pdo>
+  </PdoM>
+  <PdoM PMIndex="5633" PMN="RxVariables" PMIOD="O" />
+  <PdoM PMIndex="6658" PMN="TxCIPSafety" PMIOD="I">
+    <Pdo PID="8e9b729d-3ae5-4d64-9d0d-4a6e9fad362c" Index="24578" SIndex="1" Name="CIPTarget_Instance0" DSC="" PBit="376" PD="I" PV="H" PBO="240" BTBL="376" LEMI="2" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..46] OF BYTE" CipType="TargetInputAssembly">
+      <BridgeNodes>
+        <BridgeNode>00000000-0000-0000-0000-000000000000</BridgeNode>
+      </BridgeNodes>
+    </Pdo>
+    <Pdo PID="0ac2b64e-a9ca-4b45-8ae7-9bcb4a383559" Index="24578" SIndex="2" Name="Padding" DSC="" PBit="8" PD="I" PV="H" PBO="616" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
+  </PdoM>
+  <PdoM PMIndex="5634" PMN="RxCIPSafety" PMIOD="O">
+    <Pdo PID="caf1d7df-7909-4e12-9a8a-f67165cb5441" Index="28674" SIndex="1" Name="CIPTarget_Instance0" DSC="" PBit="448" PD="O" PV="H" PBO="224" BTBL="448" LEMI="2" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..55] OF BYTE" CipType="TargetInputAssembly">
+      <BridgeNodes>
+        <BridgeNode>00000000-0000-0000-0000-000000000000</BridgeNode>
+      </BridgeNodes>
+    </Pdo>
+  </PdoM>
+</Module>

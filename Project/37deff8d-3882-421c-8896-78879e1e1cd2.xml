@@ -1,0 +1,40 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=ATC_E\Tools1S\DataTraceSetup1S	N=Asse0tracesetup	G=VAR
+++D=_eMC_DIRECTION	N=dir2	G=VAR
+++D=BOOL	N=Default	G=VAR
+++D=LREAL	N=pos1	G=VAR
+++D=LREAL	N=vel1	G=VAR
+++D=LREAL	N=acc1	G=VAR
+++D=_eMC_DIRECTION	N=dir1	G=VAR
+++D=LREAL	N=pos2	G=VAR
+++D=LREAL	N=vel2	G=VAR
+++D=LREAL	N=acc2	G=VAR
+++D=BOOL	N=Asse0MoveBit	G=VAR
+++D=MC_Move	N=Asse0Move1FB	G=VAR
+++D=MC_Move	N=Asse0move2FB	G=VAR
+++D=MC_Stop	N=Asse0stopFB	G=VAR
+++D=ATC_E\Tools1S\DataTrace1S_V1	N=Asse0traceFB	G=VAR
+++D=BOOL	N=ExeTrace	G=VAR
+++D=BOOL	N=PyCmdEnableNew	G=VAR
+++D=BOOL	N=PyCmdDisableNew	G=VAR
+++D=BOOL	N=PyCmdMovvelNew	G=VAR
+++D=BOOL	N=PyCmdResetNew	G=VAR
+++D=BOOL	N=PyCmdStartCycleNew	G=VAR
+++D=BOOL	N=PyCmdStartMonitorNew	G=VAR
+++D=BOOL	N=PyCmdStopNew	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=_sAXIS_REF	N=Axis0	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..5,0..4095] OF DINT	N=Asse0traceoutput	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdEnable	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdDisable	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdReset	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdMovVel	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdStartCycle	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdStop	G=VAR_EXTERNAL
+++D=BOOL	N=PyCmdStartMonitor	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0powerBit	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0resetBit	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0stopBit	G=VAR_EXTERNAL
+++D=BOOL	N=Asse0MovvelBit	G=VAR_EXTERNAL

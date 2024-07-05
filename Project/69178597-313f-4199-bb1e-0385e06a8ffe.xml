@@ -1,0 +1,19 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>IF Enable THEN&#xD;
+	Controlword := AxisData.ControlWord;&#xD;
+	Modes_of_operation := AxisData.ModeOfOperation;&#xD;
+	Target_position := AxisData.Target_position;&#xD;
+	Profile_velocity := AxisData.Target_velocity;&#xD;
+	IF AxisData.Positive_torque_limit&gt;0 THEN&#xD;
+		Positive_torque_limit_value := AxisData.Positive_torque_limit;&#xD;
+	ELSE&#xD;
+		Positive_torque_limit_value := 5000;&#xD;
+	END_IF;&#xD;
+	IF AxisData.Negative_torque_limit &gt; 0 THEN&#xD;
+		Negative_torque_limit_value  := AxisData.Negative_torque_limit;&#xD;
+	ELSE&#xD;
+		Negative_torque_limit_value := 5000;&#xD;
+	END_IF;&#xD;
+&#xD;
+	Profile_acceleration := AxisData.Profile_acceleration;&#xD;
+	Profile_deceleration := AxisData.Profile_deceleration;&#xD;
+END_IF;</Text></StructuredTextModel>

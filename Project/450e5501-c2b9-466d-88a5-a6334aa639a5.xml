@@ -1,0 +1,70 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR_GLOBAL	GVT=GlobalNamespaceGroup
+++D=WORD	N=Node2_1S_Controlword	AT=ECAT://node#2/Controlword	G=VAR_GLOBAL
+++D=DINT	N=Node2_1S_Target_position	AT=ECAT://node#2/Target position	G=VAR_GLOBAL
+++D=WORD	N=Node2_1S_Touch_probe_function	AT=ECAT://node#2/Touch probe function	G=VAR_GLOBAL
+++D=UINT	N=Node2_1S_Positive_torque_limit_value	AT=ECAT://node#2/Positive torque limit value	G=VAR_GLOBAL
+++D=UINT	N=Node2_1S_Negative_torque_limit_value	AT=ECAT://node#2/Negative torque limit value	G=VAR_GLOBAL
+++D=WORD	N=Node2_1S_Error_code	AT=ECAT://node#2/Error code	G=VAR_GLOBAL
+++D=WORD	N=Node2_1S_Statusword	AT=ECAT://node#2/Statusword	G=VAR_GLOBAL
+++D=DINT	N=Node2_1S_Position_actual_value	AT=ECAT://node#2/Position actual value	G=VAR_GLOBAL
+++D=INT	N=Node2_1S_Torque_actual_value	AT=ECAT://node#2/Torque actual value	G=VAR_GLOBAL
+++D=WORD	N=Node2_1S_Touch_probe_status	AT=ECAT://node#2/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=Node2_1S_Touch_probe_pos1_pos_value	AT=ECAT://node#2/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=Node2_1S_Touch_probe_pos2_pos_value	G=VAR_GLOBAL
+++D=DWORD	N=Node2_1S_Digital_inputs	AT=ECAT://node#2/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=Node2_1S_Sysmac_Error_Status	AT=ECAT://node#2/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_NOT	AT=ECAT://node#2/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_POT	AT=ECAT://node#2/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_DEC	AT=ECAT://node#2/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_PC	AT=ECAT://node#2/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_EXT1	AT=ECAT://node#2/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_EXT2	AT=ECAT://node#2/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_MON1	AT=ECAT://node#2/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_MON2	AT=ECAT://node#2/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_MON3	AT=ECAT://node#2/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_PCL	AT=ECAT://node#2/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_NCL	AT=ECAT://node#2/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_ESTP	AT=ECAT://node#2/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_BKIR_MONITOR	AT=ECAT://node#2/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_STO1	AT=ECAT://node#2/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_STO2	AT=ECAT://node#2/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_EDM	AT=ECAT://node#2/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_MON4	AT=ECAT://node#2/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_MON5	AT=ECAT://node#2/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_EventLog_Support	AT=ECAT://node#2/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_Unit_Type	AT=ECAT://node#2/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_Observation	AT=ECAT://node#2/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_Minor_Fault	AT=ECAT://node#2/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=BOOL	N=Node2_1S_NOT_1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=Axis0	AT=MC://_MC_AX[0]	RO=1	Const=1	G=VAR_GLOBAL
+++D=OMR_CH_PP_Pos\sPP_Axis	N=Axis1	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=Axis_cfg	N=Axis1_cfg	G=VAR_GLOBAL
+++D=DINT	N=Node2_1S_Present_Motor_Velocity	AT=ECAT://node#2/Present Motor Velocity	G=VAR_GLOBAL
+++D=DINT	N=Node2_1S_Velocity_actual_value	AT=ECAT://node#2/Velocity actual value	G=VAR_GLOBAL
+++D=UDINT	N=Node2_1S_Profile_velocity	AT=ECAT://node#2/Profile velocity	G=VAR_GLOBAL
+++D=UDINT	N=Node2_1S_Profile_acceleration	AT=ECAT://node#2/Profile acceleration	G=VAR_GLOBAL
+++D=UDINT	N=Node2_1S_Profile_deceleration	AT=ECAT://node#2/Profile deceleration	G=VAR_GLOBAL
+++D=SINT	N=Node2_1S_Modes_of_operation_display	AT=ECAT://node#2/Modes of operation display	G=VAR_GLOBAL
+++D=SINT	N=Node2_1S_Modes_of_operation	AT=ECAT://node#2/Modes of operation	G=VAR_GLOBAL
+++D=ARRAY[0..5,0..4095] OF DINT	N=Asse0traceoutput	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=PyCmdEnable	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=PyCmdDisable	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=PyCmdReset	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=PyCmdMovVel	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=PyCmdStartCycle	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=PyCmdStop	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=PyCmdStartMonitor	G=VAR_GLOBAL
+++D=BOOL	N=Asse0powerBit	G=VAR_GLOBAL
+++D=BOOL	N=Asse0resetBit	G=VAR_GLOBAL
+++D=BOOL	N=Asse0stopBit	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=Asse0MovvelBit	G=VAR_GLOBAL
+++D=INT	N=TestInt	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=INT	N=TestInt1	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=INT	N=TestInt2	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=INT	N=TestInt3	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=INT	N=TestInt4	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=LREAL	N=Pos_1S_0	G=VAR_GLOBAL
+++D=BOOL	N=Asse0moveBit	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF Axis_py	N=AxisMonitor	NTP=PublicationOnly	G=VAR_GLOBAL

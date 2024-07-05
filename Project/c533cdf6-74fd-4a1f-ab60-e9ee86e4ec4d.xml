@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <ReferredLibrariesModel>
+      <ReferredLibraries>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>OmronLib_EC_1S_V1_0</Name>
+              <NameSpace></NameSpace>
+              <Version>1.0.1</Version>
+              <Revision>1</Revision>
+              <LibraryId>6cecad37-3dde-4efa-b068-33c9589d0662</LibraryId>
+              <Author>OMRON Corporation</Author>
+              <Company>(c) OMRON Corporation 2016, 2019. All Rights Reserved.</Company>
+              <DateCreated>2015-08-10T05:08:58.9769339+02:00</DateCreated>
+              <DateModified>2019-03-01T03:51:24.055376+01:00</DateModified>
+              <Comment>This is EC 1S library.
+これはEtherCAT 1Sライブラリです。</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OmronLib\EC_1S\Backup_1S</PublicName>
+                <PublicName>OmronLib\EC_1S\Restore_1S</PublicName>
+                <PublicName>OmronLib\EC_1S\InitEncoder_1S</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>OmronLib\EC_1S\SubParts\ReadDevice</InternalName>
+                <InternalName>OmronLib\EC_1S\SubParts\ReadObjectList</InternalName>
+                <InternalName>OmronLib\EC_1S\Backup1S\CompareDevice</InternalName>
+                <InternalName>OmronLib\EC_1S\Backup1S\WriteBackup</InternalName>
+                <InternalName>OmronLib\EC_1S\Restore1S\RestoreParam</InternalName>
+                <InternalName>OmronLib\EC_1S\InitEncoder1S\PollingInit1S</InternalName>
+                <InternalName>OmronLib\EC_1S\SubParts\ObjectList</InternalName>
+                <InternalName>OmronLib\EC_1S\SubParts\SDOParameterTitle</InternalName>
+                <InternalName>OmronLib\EC_1S\SubParts\SDOParameter</InternalName>
+                <InternalName>OmronLib\EC_1S\SubParts\DeviceItem</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ301-1100</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>1</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.01</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.1" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>ea6d855f-c7cb-4ffc-8349-f81723e48347</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\OMRON\Data\Lib\EC_1S\OmronLib_EC_1S_V1_0.slr</LibraryFilePath>
+              <LibraryFileRelativePath></LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\..\Lib\EC_1S\OmronLib_EC_1S_V1_0.slr</LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+      </ReferredLibraries>
+      <BuildOption>
+        <data>
+          <LibraryModel>
+            <Name>OneS_Positioning</Name>
+            <NameSpace></NameSpace>
+            <Version>1.0.9</Version>
+            <Revision>1</Revision>
+            <LibraryId>f836a15a-41a3-4fb7-9edd-0f7cb9e4d819</LibraryId>
+            <Author></Author>
+            <Company>Omron CH</Company>
+            <DateCreated>2012-07-02T17:03:12.4682575+02:00</DateCreated>
+            <DateModified>2019-04-18T15:29:02.9732204+02:00</DateModified>
+            <Comment>1S controlling PP, PV and HM mode
+</Comment>
+            <Password></Password>
+            <AttachedFiles />
+            <AttachedFilesRelativePaths />
+            <PublicPartsNames>
+              <PublicName>OMR_CH_PP_Pos\MC_Power1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_Home1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_MoveRel1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_MoveAbs1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_MoveJog1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_MoveVelocity1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_Stop1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_SetPosition1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_HomeTorque1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_Reset1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_Restart1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_MotorReplacement1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\Ax_InData</PublicName>
+              <PublicName>OMR_CH_PP_Pos\Ax_OutData</PublicName>
+              <PublicName>OMR_CH_PP_Pos\MC_BrakeRelease</PublicName>
+              <PublicName>OMR_CH_PP_Pos\Get1sInfo</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sAX_bCmd</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sPP_Axis</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sStaDrv</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sCfg</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sAct</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sCmd</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sStatus</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sDetail</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sDir</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sAX_bCmd_Copy</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sAX_bSts</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sAX_wCmd</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sAX_wSts</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sAX_Mng</PublicName>
+              <PublicName>OMR_CH_PP_Pos\uWORD_BYTE_BOOL</PublicName>
+              <PublicName>OMR_CH_PP_Pos\eStatusHoming</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sInfo1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sDrive1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sLifeTimeInfo1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sEncoder1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sMotor1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\sWarnings1S</PublicName>
+              <PublicName>OMR_CH_PP_Pos\eMC_Direction</PublicName>
+            </PublicPartsNames>
+            <InternalPartsNames />
+            <BuildDevice>
+              <Category>Controller</Category>
+              <Family>Nex</Family>
+              <FullModel>NX1P2-1040DT1</FullModel>
+              <MajorVersion>1</MajorVersion>
+              <MinorVersion>16</MinorVersion>
+              <Revision>0</Revision>
+              <DisplayVersion>1.16</DisplayVersion>
+              <Packages>
+                <Package Name="Motion" Version="1.16" />
+              </Packages>
+            </BuildDevice>
+            <DependencyId>642b675a-ab7d-4f41-a42f-5e87ce02b313</DependencyId>
+            <IsSource>true</IsSource>
+            <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+            <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+            <LibraryFilePath></LibraryFilePath>
+            <LibraryFileRelativePath></LibraryFileRelativePath>
+            <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+            <AsOldVer>false</AsOldVer>
+            <SchemaVersion>3</SchemaVersion>
+            <Parameter1>false</Parameter1>
+          </LibraryModel>
+        </data>
+      </BuildOption>
+      <ExcludedParts>
+        <ExcludedPart>86e18855-49ec-44a8-b2c5-b2a4112939d1</ExcludedPart>
+        <ExcludedPart>028cb5d6-7ac8-43a5-acd1-5be87c91227f</ExcludedPart>
+        <ExcludedPart>a0574cd8-68e0-40fb-b859-aa85a0ceca70</ExcludedPart>
+        <ExcludedPart>f8179503-8299-4b25-adf9-901c24dc98d0</ExcludedPart>
+      </ExcludedParts>
+      <InternalParts />
+      <LibraryTrackingIdConversionTable>
+        <LibraryEntityTrackingId>00000000-0000-0000-0000-000000000000</LibraryEntityTrackingId>
+        <PartTrackingIds />
+      </LibraryTrackingIdConversionTable>
+      <AreLibrariesIncluded>true</AreLibrariesIncluded>
+      <IsLibraryIdsDifferenceNotified>false</IsLibraryIdsDifferenceNotified>
+    </ReferredLibrariesModel>
+  </data>
+</data>
